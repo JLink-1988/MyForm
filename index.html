@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/753a59d3de.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <form class="form">
+        <div class="topbanner">
+            <h1>Payment form example</h1>
+        </div>
+        <div class="groups">
+            <div class="card">
+                <label for="card">Card #</label>
+                <input type="text" placeholder="xxxxxxxxxxxxx">
+            </div>
+            <div class="CVC">
+                <label for="CVC#">CVC#</label>
+                <input type="text" placeholder="0000">
+            </div>
+            <div class="amount">
+                <label for="amount">$</label>
+                <input type="text" placeholder="Amount">
+            </div>
+            <div class="firstname">
+                <label for="first name">First Name</label>
+                <input type="text">
+            </div>
+            <div class="lastname">
+                <label for="last Name">Last name</label>
+                <input type="text">
+            </div>
+            <div class="city">
+                <label for="city">City</label>
+                <input type="text">
+            </div>
+            <div class="state">
+                <label for="state">State</label>
+                <select name="pickastate" id="Pick a State">
+                    <option selected="blanc">Pick a state</option>
+                    <option value="green">Florida</option>
+                    <option value="blue">California</option>
+                    <option value="blue">Montana</option>
+                    <option value="blue">Arizona</option>
+                </select>
+            </div>
+            <div class="postalcode">
+                <label for="postalcode">Postal Code</label>
+                <input type="text">
+            </div>
+
+
+        </div>
+        <div class="bottom">
+            <div class="radio">
+                <div>
+                    <label for="radio">We accept:</label>
+                </div>
+                <div class="boxcard">
+                    <i class="fab fa-cc-visa"></i>
+                    <input type="radio" name="card" value="1">
+
+                    <i class="fab fa-cc-mastercard"></i>
+                    <input type="radio" name="card" value="2">
+
+                    <i class="fab fa-cc-stripe"></i>
+                    <input type="radio" name="card" value="3">
+
+                    <i class="fab fa-cc-paypal"></i>
+                    <input type="radio" name="card" value="4">
+                </div>
+            </div>
+            <div class="textarea">
+                <div class="textarea">
+                    <label for="textarea">Message:</label>
+                </div>
+                <textarea name="" id="" cols="74" rows="10"></textarea>
+            </div>
+
+        </div>
+        <div class="bottombanner">
+            <input type="submit" id="cancel" name="cancel" value="cancel">
+            <input type="submit" id="send" name="send" value="send">
+        </div>
+    </form>
+
+</body>
+
+
+
+</html>
